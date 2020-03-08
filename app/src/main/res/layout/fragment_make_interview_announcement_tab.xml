@@ -1,0 +1,163 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".admin_fragments.MakeInterviewAnnouncementTab"
+    android:background="@color/darkgrey"
+    android:weightSum="1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextView2"
+                    android:id="@+id/unitCode"
+                    android:layout_width="111dp"
+                    android:layout_height="match_parent"
+                    android:text="Unit Code" />
+
+                <EditText
+                    style="@style/EditText"
+                    android:id="@+id/unitCodeEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextView2"
+                    android:id="@+id/unitGrade"
+                    android:layout_width="116dp"
+                    android:layout_height="28dp"
+                    android:text="Unit Grade" />
+
+                <EditText
+                    style="@style/EditText"
+                    android:id="@+id/unitGradeEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextView2"
+                    android:id="@+id/interviewDate"
+                    android:layout_width="111dp"
+                    android:layout_height="47dp"
+                    android:text="Interview Date" />
+
+                <EditText
+                    style="@style/EditText"
+                    android:id="@+id/interviewDateEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10" />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/TextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Note: Please enter the interview timings through splitting each interview time by a comma."
+                android:textStyle="italic"
+                android:layout_weight="0.06" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextView2"
+                    android:id="@+id/interviewTimings"
+                    android:layout_width="115dp"
+                    android:layout_height="55dp"
+                    android:text="Interview Timings" />
+
+                <EditText
+                    style="@style/EditText"
+                    android:id="@+id/interviewTimingsEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/interviewRoom"
+                    style="@style/TextView2"
+                    android:layout_width="172dp"
+                    android:layout_height="32dp"
+                    android:layout_weight="5"
+                    android:text="Interview Room" />
+
+                <EditText
+                    android:id="@+id/roomEditText"
+                    style="@style/EditText"
+                    android:layout_width="251dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.94"
+                    android:ems="10" />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/TextView2"
+                android:id="@+id/announcement"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Announcement" />
+
+            <EditText
+                android:id="@+id/announcementEditText"
+                style="@style/EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.14"
+                android:ems="10" />
+
+            <Button
+                style="@style/Button"
+                android:id="@+id/announcementButton"
+                android:layout_width="176dp"
+                android:layout_height="32dp"
+                android:text="Make Announcement" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

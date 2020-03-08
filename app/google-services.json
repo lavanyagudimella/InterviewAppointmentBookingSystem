@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "606351804292",
+    "firebase_url": "https://interviewappointmentbook-c4035.firebaseio.com",
+    "project_id": "interviewappointmentbook-c4035",
+    "storage_bucket": "interviewappointmentbook-c4035.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606351804292:android:b963dc7ff142eb65",
+        "android_client_info": {
+          "package_name": "com.example.lavanyapalavancha.interviewappointmentbookingsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606351804292-6g7ba0pvp8s80h7vmph6sqijbolnmcpe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDp0yyRLyBnDg0bG-q67PuQzQC8y8ILWg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

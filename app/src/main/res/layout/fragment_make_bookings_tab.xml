@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkgrey"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.lavanyapalavancha.interviewappointmentbookingsystem.student_fragments.MakeBookingsTab"
+    android:weightSum="1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextView2"
+                    android:id="@+id/studentName"
+                    android:layout_width="111dp"
+                    android:layout_height="match_parent"
+                    android:text="Student Name"/>
+
+                <EditText
+                    style="@style/EditText"
+                    android:id="@+id/studentNameEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextView2"
+                    android:id="@+id/studentNumber"
+                    android:layout_width="111dp"
+                    android:layout_height="match_parent"
+                    android:text="Student Number" />
+
+                <EditText
+                    style="@style/EditText"
+                    android:id="@+id/studentNumberEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10" />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/TextView2"
+                android:id="@+id/workDescription"
+                android:layout_width="338dp"
+                android:layout_height="wrap_content"
+                android:text="Brief title/description of your work(D/HD)"
+                android:layout_weight="0.07" />
+
+            <EditText
+                style="@style/EditText"
+                android:id="@+id/workDescriptionEditText"
+                android:layout_width="match_parent"
+                android:layout_height="89dp"
+                android:ems="10" />
+
+            <TextView
+                style="@style/TextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Appointment Time (Please select the interview time carefully as it is submitted,this cannot be changed."
+                android:textStyle="italic"
+                android:layout_weight="0.06" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextView2"
+                    android:id="@+id/interviewTimingTo"
+                    android:layout_width="111dp"
+                    android:layout_height="54dp"
+                    android:text="Interview Timings" />
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <Button
+                style="@style/Button"
+                android:id="@+id/bookingsButton"
+                android:layout_width="176dp"
+                android:layout_height="32dp"
+                android:text="Make Booking" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

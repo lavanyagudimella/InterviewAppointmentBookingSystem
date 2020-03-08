@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkgrey"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TextView"
+        android:id="@+id/interviewTimingsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Interview Timings" />
+
+    <TextView
+        style="@style/TextView"
+        android:id="@+id/studentNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Name" />
+
+    <TextView
+        style="@style/TextView"
+        android:id="@+id/studentNumberTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Number" />
+
+    <TextView
+        style="@style/TextView"
+        android:id="@+id/contactEmailTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "Contact Email" />
+
+    <TextView
+        style="@style/TextView"
+        android:id="@+id/workDescriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Work Description" />
+
+</LinearLayout>

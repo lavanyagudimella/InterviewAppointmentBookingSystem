@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/darkgrey"
+    android:weightSum="1">
+
+    <TextView
+        style="@style/TextView"
+        android:id="@+id/dateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Interview Date"
+        android:layout_weight="0.03" />
+
+    <TextView
+        style="@style/TextView"
+        android:id="@+id/roomTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Interview Room"
+        android:layout_weight="0.03" />
+
+    <TextView
+        style="@style/TextView"
+        android:id="@+id/unicodeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unit Code"
+        android:layout_weight="0.03" />
+
+    <TextView
+        style="@style/TextView"
+        android:id="@+id/unitGradeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unit Grade"
+        android:layout_weight="0.03" />
+
+    <TextView
+        style="@style/TextView"
+        android:id="@+id/interviewTimings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Interview Timings"
+        android:layout_weight="0.03" />
+
+    <TextView
+        style="@style/TextView"
+        android:id="@+id/announcementTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Announcement"
+        android:layout_weight="0.03" />
+
+</LinearLayout>
